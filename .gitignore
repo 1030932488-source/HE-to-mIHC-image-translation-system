@@ -1,7 +1,37 @@
-node_modules/
+# 模型权重文件（太大，不适合上传GitHub）
+*.pth
+*.pt
+*.onnx
+
+# Python 缓存
 __pycache__/
-*.pyc
-.env
-outputs/
-dist/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
 venv/
+env/
+.env/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Node.js 依赖
+node_modules/
+dist/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
